@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import ContactsItem from 'components/Contacts-item';
+import {ContactsItem} from 'components/Contacts-item';
 import s from './Contacts-list.module.css';
 
-export default function ContactsList({ contacts, onDeleteBtn }) {
+export function ContactsList({ contacts, onDeleteBtn }) {
   const elements = contacts.map(({ id, name, number }) => (
     <ContactsItem
       key={id}

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './Section.css';
 
-export default function Section({ children }) {
+export function Section({ children }) {
     return <section className="section">{children}</section>;
 }
 
