@@ -1,0 +1,20 @@
+.item {
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--secondary-text-color);
+    transition: transform var(--transition);
+}
+
+.focus {
+    transform: scale(1.02);
+}
+
+.name {
+    min-width: 30%;
+}
+
+.num {
+    margin-left: 10px;
+}

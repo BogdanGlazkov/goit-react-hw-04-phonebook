@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    background-color: var(--btn-color);
+    border-bottom: 1px solid var(--primary-text-color);
+}
+
+.label:focus,
+.input:hover,
+.input:focus {
+    outline: 2px solid var(--accent-color);
+}

@@ -1,0 +1,14 @@
+.input {
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+    border: none;
+    outline: var(--accent-color);
+    background-color: var(--btn-color);
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.input:hover {
+    outline: 2px solid var(--accent-color);
+}
